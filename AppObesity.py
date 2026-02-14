@@ -102,7 +102,7 @@ section[data-testid="stSidebar"] {
 # ==========================
 @st.cache_resource
 def load_model():
-    model_path = "best_obesity_model.pkl"
+    model_path = "rank_1_HistGradientBoosting.pkl"
     encoder_path = "label_encoder.pkl"
 
     model = joblib.load(model_path)
@@ -272,4 +272,5 @@ Developed with ❤️ using <b>Streamlit</b> | Obesity Detection AI System <br>
 Deployment Ready (Streamlit Cloud / Render / AWS)
 </div>
 """, unsafe_allow_html=True)
+
 
