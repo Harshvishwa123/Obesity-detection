@@ -102,8 +102,8 @@ section[data-testid="stSidebar"] {
 # ==========================
 @st.cache_resource
 def load_model():
-    model_path = r"obesity_outputs\kaggle\working\obesity_outputs\best_obesity_model.pkl"
-    encoder_path = r"obesity_outputs\kaggle\working\obesity_outputs\label_encoder.pkl"
+    model_path = "best_obesity_model.pkl"
+    encoder_path = "label_encoder.pkl"
 
     model = joblib.load(model_path)
     encoder = joblib.load(encoder_path)
@@ -272,3 +272,4 @@ Developed with ❤️ using <b>Streamlit</b> | Obesity Detection AI System <br>
 Deployment Ready (Streamlit Cloud / Render / AWS)
 </div>
 """, unsafe_allow_html=True)
+
