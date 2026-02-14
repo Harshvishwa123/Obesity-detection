@@ -1,5 +1,6 @@
 streamlit
+numpy==1.26.4
 pandas
-numpy
 scikit-learn==1.6.1
+catboost==1.2.5
 joblib
